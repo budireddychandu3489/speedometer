@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.speed-container {
+  background-color: #07080c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.speed-heading {
+  color: #ffffff;
+  font-size: 36px;
+}
+.pic {
+  height: 300px;
+  width: 50%;
+}
+.speed-limit {
+  color: #cbd5e1;
+  font-size: 20px;
+}
+.caution {
+  color: #94a3b8;
+  font-size: 20px;
+}
+.button-container {
+  display: flex;
+}
+.acc-button {
+  background-color: #0b69ff;
+  border-radius: 10px;
+  padding: 5px;
+  margin-right: 5px;
+}
+.brake-button {
+  background-color: transparent;
+  border: 3px solid #cbd5e1;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 576px) {
+  .pic {
+    height: 150px;
+    width: 50%;
+  }
+}
